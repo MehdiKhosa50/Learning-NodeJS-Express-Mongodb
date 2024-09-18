@@ -1,4 +1,5 @@
 const fs = require('fs');
+const os = require('os');
 // fs.writeFileSync('./text.txt', 'Hey there!');
 // fs.writeFile('./text.txt', 'Hey there! Async', (err) => {});
 // const result = fs.readFileSync('./text.txt', 'utf8');
@@ -13,5 +14,7 @@ const fs = require('fs');
 //     }
 // });
 // fs.appendFileSync('./text.txt', '\nHey there! sync');
-console.log(fs.statSync('./text.txt').isFile());
-console.log(fs.statSync('./text.txt'));
+// console.log(fs.statSync('./text.txt').isFile());
+// console.log(fs.statSync('./text.txt'));
+
+console.log(os.cpus().length);
