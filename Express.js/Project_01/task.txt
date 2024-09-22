@@ -1,0 +1,16 @@
+RestFul API - JSON
+
+Get/Users ---> List all the Users in HTML Doc.
+Get/Api/Users ---> List all the Users in JSON FORMAT.
+
+Get/Api/User1 ---> Get the User with ID 1
+Get/Api/User2 ---> Get the User with ID 2
+
+Dynamic Path Parameters 
+Get/Api/User1:id
+
+Post/Api/Users ---> Create new User
+
+Patch/Api/Users/1 ---> Edit the User with ID 1
+
+Delete/Api/Users/1 ---> Delete the User with ID 1
