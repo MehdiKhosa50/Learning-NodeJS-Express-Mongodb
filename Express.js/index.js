@@ -1,6 +1,5 @@
 console.log("Hello World! From Express.js Directory");
 
-const http = require('http');
 const express = require('express');
 const app = express();
 
